@@ -1,0 +1,18 @@
+body {
+  background-image: url("./img/backgroundLp.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+.myform {
+  background-color: #111111;
+  width: 450px;
+  height: auto;
+  opacity: 90%;
+}
+
+@media (max-width: 460px) {
+  .myform {
+    width: auto;
+  }
+}
